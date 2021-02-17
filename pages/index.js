@@ -1,14 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href={prefix+"/favicon.ico"} />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
