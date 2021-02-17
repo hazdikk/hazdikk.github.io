@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Hazdik Portofolio</title>
-        <link rel="shortcut icon" href={"/favicon.ico"}/>
+        <link><img src="/favicon.ico" className={styles.logo} /></link>
       </Head>
       <Component {...pageProps} />
     </>
